@@ -109,7 +109,7 @@ def load(properties):
             config = json.load(config_file)
 
             if properties == "interval":
-                return config.get("interval", 12)  # Valor padrão é 12 (12 segundos para uma chamada)
+                return config.get("interval", 1000)  # Valor padrão é 1000 (1000 ms para uma chamada)
             elif properties == "clicks":
                 return config.get("clicks", 1)  # Valor padrão é 1 (1 clique por intervalo)
             elif properties == "button":
