@@ -1,0 +1,35 @@
+# Arquivos de ambiente
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do editor
+.idea/
+.vscode/
+
+# Diretórios de build e distribuição
+build/
+dist/
+*.egg-info/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Arquivos gerados pelo cx_Freeze
+exe/
+*.spec
+
+# Arquivos específicos do Python
+__pycache__/
+*.pyc
+*.pyo
+
