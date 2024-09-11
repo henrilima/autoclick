@@ -1,7 +1,7 @@
 from cx_Freeze import setup, Executable
 
 build_exe_options = {
-    "build_exe": "MouseAutoClicker_v1.0.0",
+    "build_exe": "build/MouseAutoClicker_v1.0.0",
     "packages": ["tkinter", "keyboard", "pyautogui", "PIL"],  # Inclua Pillow e pyautogui
     "includes": ["pyautogui", "PIL"],  # Force a inclusão de Pillow e pyautogui
     "zip_include_packages": ["encodings", "PySide6", "shiboken6"],
