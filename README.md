@@ -1,6 +1,9 @@
 # Mouse AutoClicker
 O **Mouse AutoClicker** é um aplicativo simples feito em Python que simula cliques automáticos no mouse. Ele permite que o usuário defina a frequência dos cliques, o número de cliques por intervalo e o botão do mouse a ser usado (esquerdo ou direito). O projeto foi desenvolvido utilizando bibliotecas como `pyautogui`, `tkinter`, `keyboard` e `pillow`, e pode ser executado tanto em ambientes com Python instalado quanto em executáveis gerados via `cx_Freeze`.
 
+## Releases
+Para acessar a versão mais recente do aplicativo, visite a [página de releases](https://github.com/henrilima/autoclick/releases) do projeto. Lá você encontrará os arquivos ZIP para download e as notas de versão associadas.
+
 ## Funcionalidades
 - Definir o intervalo entre os cliques (em milissegundos).
 - Escolher quantos cliques devem ser feitos em cada intervalo.
